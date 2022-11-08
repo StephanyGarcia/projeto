@@ -74,6 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer
 }
 
 .meio-tudao {
@@ -82,13 +83,19 @@
     align-items: center;
     justify-content: center;
 }
+.services {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+}
 
 .subtitulo {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 90px;
+    width: 100%;
+    height: 230px;
 }
 
 .underline {
@@ -117,8 +124,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    width: 1000px;
-    margin-bottom: 175px;
+    width: 100%;
+    height: 370px;
 }
 
 .fully,
@@ -127,7 +134,7 @@
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: inherit;
+    align-items: center;
     color: #4d4f51;
     padding-left: 20px;
 }
@@ -145,14 +152,22 @@
 .text4,
 .text5 {
     font-size: 15px;
+    text-align: center;
 }
 
 .info-meio2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 1000px;
     width: 100%;
+    height: 600px;
+}
+
+.bussines {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .celular2 {
@@ -160,7 +175,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 125px;
 }
 
 .subtitulo2 {
@@ -168,6 +182,10 @@
     font-size: 30px;
     margin-bottom: 35px;
     color: #4d4f51;
+}
+.texto-meio {
+    width: 100%;
+    max-width: 520px;
 }
 
 .text6,
@@ -196,10 +214,10 @@
     color: #4d4f51;
     box-shadow: #4d4f51 3px 3px 3px 1px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .subtitulo3 {
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -222,9 +240,11 @@
 
 .imagens {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
-
+.time1{
+    position: relative;
+}
 .img1,
 .img2,
 .img3,
@@ -232,8 +252,19 @@
     border-radius: 10px 10px 0 0;
 }
 
-.time1 {
-    padding: 20px;
+.time {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+}
+.funcionario {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    justify-content: space-around;
 }
 
 .nome {
@@ -246,14 +277,15 @@
     color: white;
     display: flex;
     flex-direction: column;
-    margin-top: -4px;
+    position: absolute;
+    top: 230px;
+    justify-content: space-evenly;
 }
 
 .rodape {
     height: 88px;
     background-image: linear-gradient(to top left, #e7344c, #c2197e, #e7344c);
-    margin-top: 120px;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
