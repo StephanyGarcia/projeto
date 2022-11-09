@@ -333,12 +333,33 @@
     .topo{
         height: 490px;
     }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .subtitulo2 {
         text-align: center;
     }
     
     .navegacao a {
-        padding: 10px 5px;
+        padding: 10px;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-bussines{
+        text-align: center;
     }
 }
 @media(max-width:860px){
@@ -386,17 +407,34 @@
 }
 @media(max-width:462px){    
     .info-topo {
-        max-width: 305px;
-       
+        max-width: 290px;       
     }
     .texto-topo {
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .titulo {
-        font-size: 37px;
+        font-size: 32px;
     }
     .text {
-        width: 310px;
+        width: 280px;
+        margin: 15px 0;
+    }
+    .info-meio2 {
+        height: 820px;
+    }
+    .bussines {
+        height: 840px;
+    }
+    .botao-apps {
+        flex-direction: column;        
+        width: 100%;
+    }
+    .botaoapp{
+        max-width: 100%;
+
     }
 }
 @media(max-width:436px){
