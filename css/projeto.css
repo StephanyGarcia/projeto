@@ -5,7 +5,6 @@
 
 .topo {
     background-image: linear-gradient(to top left, #e7344c, #c2197e, #e7344c);
-    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,10 +34,7 @@
 
 .navegacao {
     font-family: "Poppins", sans-serif;
-    max-width: 430px;
     width: 100%;
-    font-size: medium;
-    padding: 0 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -58,7 +54,7 @@
     justify-content: center;
     width: 100%;
     justify-content: space-between;
-    margin-top: 50px;
+    padding: 60px 0;
 }
 
 .titulo {
@@ -110,7 +106,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 230px;
+    padding: 60px 0 0;
 }
 
 .underline {
@@ -140,7 +136,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 370px;
+    padding: 40px 0;
 }
 
 .tipo-servicos {
@@ -169,7 +165,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    padding: 40px 0;
 }
 
 .bussines {
@@ -177,6 +173,7 @@
     max-width: 1000px;
     display: flex;
     justify-content: space-around;
+    padding: 0 10px;
 }
 
 .celular2 {
@@ -194,7 +191,6 @@
 }
 .texto-meio {
     width: 100%;
-    max-width: 520px;
     padding: 0 10px;
 }
 .text-bussines {
@@ -205,7 +201,7 @@
 
 .botao-apps {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
@@ -254,8 +250,8 @@
     flex-wrap: wrap;
 }
 .time1{
-    position: relative;
     padding: 0 5px;
+    margin: 20px 0;
 }
 .imgtime {
     border-radius: 10px 10px 0 0;
@@ -264,7 +260,7 @@
 .time {
     display: flex;
     width: 100%;
-    height: 600px;
+    padding: 60px 0;
     justify-content: center;
 }
 .funcionario {
@@ -272,13 +268,10 @@
     max-width: 1000px;
     display: flex;
     flex-direction: column;
-    height: 490px;
     justify-content: space-around;
 }
 
 .nome {
-    width: 200px;
-    height: 72px;
     background-image: linear-gradient(to top left, #e7344c, #c2197e, #e7344c);
     border-radius: 0 0 10px 10px;
     font-family: "Poppins", sans-serif;
@@ -286,9 +279,9 @@
     color: white;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 230px;
     justify-content: space-evenly;
+    padding: 10px 0;
+    margin-top: -5px;
 }
 
 .rodape {
@@ -330,9 +323,6 @@
         align-items: center;
         margin:0;
     }
-    .topo{
-        height: 490px;
-    }
     .texto-topo {
         padding: 0;
         display: flex;
@@ -348,9 +338,11 @@
     .subtitulo2 {
         text-align: center;
     }
-    
     .navegacao a {
         padding: 10px;
+    }
+    .botao-apps {
+        justify-content: center;
     }
     .titulo{
         text-align: center;
@@ -362,17 +354,6 @@
         text-align: center;
     }
 }
-@media(max-width:860px){
-    .funcionario{
-        height: 740px;
-    }
-    .imagens{
-        height: 645px;
-    }
-    .rodape {
-        height: 290px;
-    }
-}
 @media (max-width:760px){
     .container-navegacao {
         flex-wrap: wrap;        
@@ -381,9 +362,6 @@
     .logo {
         padding: 0 5px;
         margin-bottom: 6px;
-    }
-    .info-meio {
-        height: 600px;
     }
     .services {
         flex-direction: column;
@@ -422,38 +400,16 @@
         width: 280px;
         margin: 15px 0;
     }
-    .info-meio2 {
-        height: 820px;
-    }
-    .bussines {
-        height: 840px;
-    }
     .botao-apps {
         flex-direction: column;        
         width: 100%;
     }
     .botaoapp{
         max-width: 100%;
-
     }
 }
 @media(max-width:436px){
     .tipo-servicos {
         max-width: 275px;
-    }
-    .info-meio {
-        height: 830px;
-    }
-    .services{
-        height: 890px;
-    }
-    .imagens {
-        height: 1300px;
-    }
-    .funcionario {
-        height: 1440px;
-    }
-    .rodape {
-        height: 950px;
     }
 }
